@@ -1,12 +1,14 @@
 # Twitch Chat Command Cheat Sheet
 Cheat sheet of chat command for stream elements, stream labs and nightbot. 
 
-Nav
-* [Streamlabs](#streamlabs)
-    * [Variables](#streamlabs#variables)
-* [StreamElements](#streamElements)
-* [Nightbot](#nightbot)
+# Menu
 * [Global things](#global-things)
+* [Streamlabs](#streamlabs)
+    * [Variables](#variables)
+* [StreamElements](#streamElements)
+    * [Variables](#variables-1)
+* [Nightbot](#nightbot)
+    * [Variables](#variables-2)
 
 # Global Things
 * ``` /me ``` - Adding this before the command text changes the text color to the bot's color
