@@ -37,7 +37,7 @@ Nav
 * Remove command
     * ``` !removecommand !commandName ```
 
-## EXAMPLES
+## Examples
 * ``` !addcommand !hug {user.name} is giving {target.name} a big warm  hug. ```
 
 * ``` !editcommand !uptime Dj tester has been streaming for {uptime}!!! ```
@@ -55,20 +55,18 @@ Nav
 * ``` !editcommand !uptime /me Dj tester has been streaming for {uptime} !!! ```
 
 # StreamElements
+
 ## Variables
 * ``` ${sender} ``` works like user in streamlabs
 * ``` ${user} or ${1}  ```
-* ``` ${touser}  ```
+* ``` ${touser}  ``` 
 * ``` ${uptime} ```
 * ``` ${channel} ```
     * ``` ${channel.followers} ``` - Current followers for the streamer
     * ``` ${channel.subscribers} ``` - Current subs for the streamer
     * ``` ${channel.alias} ``` - Streamer's name
  
-
-
-
-## COMMANDS
+## Commands
 * Add command
     * ```!command add !commandName Text for the command ```
 * Edit command
@@ -76,7 +74,7 @@ Nav
 * Remove command
     * ```!command remove !commandName  ```
 
-## EXAMPLES
+## Examples
 * ```!command add !br {sender} or {user.name} is currently body rolling ```
 
 * ```!command edit !hug {sender} is hugging {user} ```
@@ -103,4 +101,6 @@ Nav
 
 * Remove command
     * ``` !commands remove !commandName ```
+
+# Examples
 
