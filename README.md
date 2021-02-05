@@ -5,10 +5,16 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
 * [Global things](#global-things)
 * [Streamlabs](#streamlabs)
     * [Variables](#variables)
+    * [Commands](#Commands)
+    * [Examples](#Examples)
 * [StreamElements](#streamElements)
     * [Variables](#variables-1)
+    * [Commands](#Commands-1)
+    * [Examples](#Examples-1)
 * [Nightbot](#nightbot)
     * [Variables](#variables-2)
+    * [Commands](#Commands-2)
+    * [Examples](#Examples-2)
 
 # Global Things
 * ``` /me ``` - Adding this before the command text changes the text color to the bot's color
@@ -94,7 +100,7 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
 # NightBot
 ## Variables
 
-## Modify Commands
+## Commands
 * Add command
     * ``` !commands add !commandName Text for the command```
 
