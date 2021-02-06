@@ -35,7 +35,7 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
     * ``` {channel.name} ``` - Streamer's name
     * ``` {channel.followers} ``` - Current followers for the streamer
     * ``` {channel.subs} ``` - Current subs for the streamer
-		
+* ``` {randnum.minNumber-MaxNumber}``` - Outputs a random number between the range you give it, checkout examples to see how to use it
 
 ## Commands
 * Add command
@@ -62,6 +62,9 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
 
 * ``` !editcommand !uptime /me Dj tester has been streaming for {uptime} !!! ```
 
+* ``` !addcommand !vibeTest {user.name} got a {randnum.0-100}% on their vibin test! ```
+
+
 # StreamElements
 
 ## Variables
@@ -73,6 +76,7 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
     * ``` ${channel.followers} ``` - Current followers for the streamer
     * ``` ${channel.subscribers} ``` - Current subs for the streamer
     * ``` ${channel.alias} ``` - Streamer's name
+* ``` ${random.minNumber-MaxNumber}``` - Outputs a random number between the range you give it
  
 ## Commands
 * Add command
@@ -95,11 +99,13 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
 
 * ```!command edit !followers ${channel.alias} has ${channel.followers}!! ```
 
-* ```!command edit !so /me $(user) was last seen in "$(game $(user))" at twitch.tv/$(user) ! Go check them out, you King & Queens!~ ```
+* ``` !command edit !so /me $(user) was last seen in "$(game $(user))" at twitch.tv/$(user) ! Go check them out, you King & Queens!~ ```
+
+* ``` !command add !vibeTest ${user} is ${random.0-100}% vibin```
 
 # NightBot
 ## Variables
-
+    
 ## Commands
 * Add command
     * ``` !commands add !commandName Text for the command```
