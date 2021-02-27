@@ -105,7 +105,11 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
 
 # NightBot
 ## Variables
-    
+* ```$(user) ```
+* ```$(touser)```
+
+see below for more variable examples
+
 ## Commands
 * Add command
     * ``` !commands add !commandName Text for the command```
@@ -117,4 +121,11 @@ Cheat sheet of chat command for stream elements, stream labs and nightbot.
     * ``` !commands remove !commandName ```
 
 # Examples
+* ```!commands edit !bits /me Thank you so much for the bitties $(touser) bleedPurple VirtualHug ```
+
+* ```!commands add !followers $(channel) has $(twitch $(channel) "{{followers}} followers!")```
+
+* ```!commands add !randNum $(eval Math.floor(Math.random() * 101))```
+
+* ```!commands add !vibeTest /me $(user) got a $(eval Math.floor(Math.random() * 101))% on their vibe test :O```
 
